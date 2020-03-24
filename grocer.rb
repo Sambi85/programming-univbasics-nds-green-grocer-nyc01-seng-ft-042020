@@ -82,7 +82,7 @@ coupon_hash = {:item => "#{food_hash[:item]} W/COUPON", :price => 5.00, :clearan
 food_hash = consolidate_cart(food_hash)
 food_hash[:count] -= 3                    
 new_array << coupon_hash                            
-new_array << food_hash
+
 
 else if food_hash
 new_array << food_hash
