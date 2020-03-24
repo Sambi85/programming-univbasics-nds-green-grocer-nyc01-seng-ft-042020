@@ -74,7 +74,6 @@ else if food_hash[:item] == "BEER" && food_hash[:count] >= 2
 coupon_hash = {:item => "#{food_hash[:item]} W/COUPON", :price => 10.00, :clearance => false, :count => 2}
 food_hash[:count] -= 2                    
 new_array << coupon_hash                            
-new_array << food_hash  
 
 
 else if food_hash[:item] == "CHEESE" && food_hash[:count] >= 3
