@@ -41,7 +41,7 @@ else if new_array[row_index][:item] == "BEER" ### finds unique item & adds 1 to 
 
 row_index += 1  
 end
-pp new_array
+new_array
 end
 
 
